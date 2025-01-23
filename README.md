@@ -5,3 +5,9 @@ Topic: Done some basic questions on JAVA
 Day 2
 Date :22-01-2025
 Topic: Java Programming Elements Level 1 and Level 2
+
+Day 3
+date :23-01-2025
+Completed Questions in Java
+Topic: Control Flow Level 1,Level 2 and Level 3.
+
