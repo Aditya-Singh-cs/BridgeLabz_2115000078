@@ -11,3 +11,7 @@ date :23-01-2025
 Completed Questions in Java
 Topic: Control Flow Level 1,Level 2 and Level 3.
 
+Day 4
+date :25-01-2025
+Completed Questions in Java
+Topic: Arrays Level 1,Level 2
