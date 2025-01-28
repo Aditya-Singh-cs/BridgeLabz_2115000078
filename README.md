@@ -15,3 +15,8 @@ Day 4
 date :25-01-2025
 Completed Questions in Java
 Topic: Arrays Level 1,Level 2
+
+Day 5
+date: 28-01-2025
+Completed Questions in Java
+Topic: Methods in java Level 1, Level 2 and Level 3
