@@ -1,5 +1,6 @@
 import java.util.Scanner;
-class Toggle{
+
+class Toggle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
@@ -7,24 +8,20 @@ class Toggle{
         String toggledString = toggleCase(input);
         System.out.println("String after toggling the case: " + toggledString);
     }
-
-    // Method to toggle the case of each character in the string
     public static String toggleCase(String str) {
-        StringBuilder result = new StringBuilder();
-        
-        // Iterate through each character of the string
+        String result = ""; 
         for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            
-            // Toggle the case using Character methods
-            if (Character.isUpperCase(ch)) {
-                result.append(Character.toLowerCase(ch)); // Convert to lowercase if uppercase
-            } else if (Character.isLowerCase(ch)) {
-                result.append(Character.toUpperCase(ch)); // Convert to uppercase if lowercase
+            char ch = str.charAt(i); 
+
+            // Toggle the case
+            if (ch >= 'A' && ch <= 'Z') {
+                result += (char) (ch + 32); // Convert to lowercase
+            } else if (ch >= 'a' && ch <= 'z') {
+                result += (char) (ch - 32); // Convert to uppercase
             } else {
-                result.append(ch); // Non-alphabet characters remain unchanged
+                result += ch; // Non-alphabet characters remain unchanged
             }
         }
-        return result.toString();
+        return result; 
     }
 }
