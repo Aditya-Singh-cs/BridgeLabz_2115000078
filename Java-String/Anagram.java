@@ -1,59 +1,39 @@
-import java.util.*;
-class Anagram {
+import java.util.Arrays;
+import java.util.Scanner;
+public class Anagram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first string: ");
-        String str1 = sc.nextLine().toLowerCase();
+        String str1 = sc.nextLine();
         System.out.print("Enter the second string: ");
-        String str2 = sc.nextLine().toLowerCase();
+        String str2 = sc.nextLine();
         if (areAnagrams(str1, str2)) {
             System.out.println("The strings are anagrams.");
         } else {
             System.out.println("The strings are not anagrams.");
         }
     }
-
     public static boolean areAnagrams(String str1, String str2) {
-        str1 = normalize(str1);
-        str2 = normalize(str2);
-
         if (str1.length() != str2.length()) {
             return false;
         }
-
-        char[] charArray1 = str1.toCharArray();
-        char[] charArray2 = str2.toCharArray();
-        manualSort(charArray1);
-        manualSort(charArray2);
-
-        for (int i = 0; i < charArray1.length; i++) {
-            if (charArray1[i] != charArray2[i]) {
-                return false;
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
+        char[] charArray1 = new char[str1.length()];
+        char[] charArray2 = new char[str2.length()];
+        int index1 = 0, index2 = 0;
+        for (int i = 0; i < str1.length(); i++) {
+            if (str1.charAt(i) != ' ') {
+                charArray1[index1++] = str1.charAt(i);
             }
         }
-        return true;
-    }
-
-    public static String normalize(String str) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if (ch != ' ') {
-                sb.append(ch);
+        for (int i = 0; i < str2.length(); i++) {
+            if (str2.charAt(i) != ' ') {
+                charArray2[index2++] = str2.charAt(i);
             }
         }
-        return sb.toString();
-    }
-
-    public static void manualSort(char[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] > arr[j]) {
-                    char temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
-            }
-        }
+        Arrays.sort(charArray1, 0, index1);
+        Arrays.sort(charArray2, 0, index2);
+        return Arrays.equals(charArray1, charArray2);
     }
 }
