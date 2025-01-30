@@ -1,20 +1,16 @@
 import java.util.*;
-
 class Anagram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first string: ");
         String str1 = sc.nextLine().toLowerCase();
-
         System.out.print("Enter the second string: ");
         String str2 = sc.nextLine().toLowerCase();
-
         if (areAnagrams(str1, str2)) {
             System.out.println("The strings are anagrams.");
         } else {
             System.out.println("The strings are not anagrams.");
         }
-        sc.close();
     }
 
     public static boolean areAnagrams(String str1, String str2) {
