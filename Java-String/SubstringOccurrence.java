@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SubstringOccurrence{
+class SubstringOccurrence {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the main string: ");
@@ -13,22 +13,25 @@ class SubstringOccurrence{
         System.out.println("The substring occurs " + count + " times.");
     }
 
-    // Method to count occurrences of the substring in the main string
+    // Method to count occurrences of the substring in the main string without using indexOf
     public static int countSubstringOccurrences(String mainString, String substring) {
         int count = 0;
-        int index = 0;
+        int subLength = substring.length();
+        int mainLength = mainString.length();
 
-        // Loop to find all occurrences of the substring
-        while ((index = mainString.indexOf(substring, index)) != -1) {
-            count++;
-            index += substring.length();  // Move the index forward to continue searching
+        // Loop through the main string and check for substring matches manually
+        for (int i = 0; i <= mainLength - subLength; i++) {
+            boolean match = true;
+            for (int j = 0; j < subLength; j++) {
+                if (mainString.charAt(i + j) != substring.charAt(j)) {
+                    match = false;
+                    break;
+                }
+            }
+            if (match) {
+                count++;
+            }
         }
         return count;
     }
 }
-
-
-
-
-
-
