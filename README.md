@@ -25,3 +25,8 @@ Day 6
 date: 29-01-2025
 Completed Questions in Java
 Topic: a)Built-in Functions b)Strings
+
+Day 7
+date 31-01-2025
+Completed Questions in Java
+Topic: Java class and object
