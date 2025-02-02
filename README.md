@@ -30,3 +30,8 @@ Day 7
 date 31-01-2025
 Completed Questions in Java
 Topic: Java class and object
+
+Day 8
+date 02-02-2025
+Complted Questions in Java 
+Topic: Java Constructors, Instance vs. Class Variables, Access Modifiers
