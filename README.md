@@ -35,3 +35,8 @@ Day 8
 date 02-02-2025
 Complted Questions in Java 
 Topic: Java Constructors, Instance vs. Class Variables, Access Modifiers
+
+Day 9 date: 04-02-2025 
+Completed Questions in Java-> this, static, final 
+key words and instanceof operator Level 1 Lab Practice 
+Topic:this, static, final key words and instanceof
