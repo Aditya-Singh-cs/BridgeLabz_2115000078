@@ -40,3 +40,7 @@ Day 9 date: 04-02-2025
 Completed Questions in Java-> this, static, final 
 key words and instanceof operator Level 1 Lab Practice 
 Topic:this, static, final key words and instanceof
+
+Day 10: 06-02-2025
+Completed the questions in java on Object Oriented Design Principles. Class diagram, Object diagram and Sequence diagram.
+Topic: Object Oriented Design Principles
