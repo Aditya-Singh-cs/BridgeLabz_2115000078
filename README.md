@@ -44,3 +44,15 @@ Topic:this, static, final key words and instanceof
 Day 10: 06-02-2025
 Completed the questions in java on Object Oriented Design Principles. Class diagram, Object diagram and Sequence diagram.
 Topic: Object Oriented Design Principles
+
+Day 11:07-02-2025
+-Completed Questions in java on Inheritance.
+-Topic: - Inheritance
+- Single Level Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Key Features of Inheritance
+- Method Overriding
+- Constructor Inheritance in Java
+- Polymorphism and Inheritance
+- Access Modifiers and Inheritance
