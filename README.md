@@ -56,3 +56,11 @@ Day 11:07-02-2025
 - Constructor Inheritance in Java
 - Polymorphism and Inheritance
 - Access Modifiers and Inheritance
+
+Day 12: 10-02-2025  
+Completed Questions in Java Encapsulation, Polymorphism, Interface and Abstract Class  
+Topic:  
+- Encapsulation
+- Polymorphism 
+- Interface
+- Abstract Classes
