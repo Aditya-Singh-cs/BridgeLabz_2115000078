@@ -65,9 +65,16 @@ Topic:
 - Interface
 - Abstract Classes
 
-Day 13: 11-02-2025  
+Day 13: 12-02-2025  
 Completed Question in java on Data Structure - LinkedList  
 Topic:  
 - Single Linked List
 - Double Linked List
 - Circular Linked List
+
+Day 14: 13-02-2025  
+Completed Questions in java on Stack , Queue, HashMap and Hashing Function  
+Topic:  
+- Stack
+- Queue
+- HashMap and Hashing Function  
