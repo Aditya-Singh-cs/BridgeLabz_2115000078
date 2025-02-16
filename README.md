@@ -89,3 +89,14 @@ Topic:
 - Quick Sort
 - Heap Sort
 - Counting Sort
+
+Day 16: 16-02-2025  
+Completed Questions in java on Linear Search and Binary Search, StringBuilder, StringBuffer, BufferedReader, FileReader, InputStreamReader  
+Topic:  
+- Linear Search
+- Binary Search
+- StringBuilder
+- StringBuffer
+- BufferedReader
+- FileReader
+- InputStreamReader
