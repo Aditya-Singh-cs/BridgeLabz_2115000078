@@ -111,3 +111,6 @@ Day 18: 18-02-2025
 Completed Questions in java to Understand Java Generics  
 Topic: Java Generics  
 
+Day 19: 20-02-2025  
+Completed Questions in java on Collections  
+Topic: Java Collections  
