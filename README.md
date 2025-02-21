@@ -109,8 +109,34 @@ Topic:
 
 Day 18: 18-02-2025  
 Completed Questions in java to Understand Java Generics  
-Topic: Java Generics  
+Topic:  
+- Introduction to Generics
+- Type Parameters
+- Generic Classes
+- Generic Methods
+- Bounded Type Parameters
+- Wildcards
 
-Day 19: 20-02-2025  
+Day 19: 19-02-2025  
 Completed Questions in java on Collections  
-Topic: Java Collections  
+Topic:  
+- Overview of Collections Framework
+- What is the Collections Framework?
+- Hierarchy of Collections Framework
+- List Interface and Implementing Classes
+- Set Interface and Implementing Classes
+- Queue and Deque Interfaces
+- Map Interface and Its Implementations
+- Comparison of Different Implementations
+- Real-World Use Cases and Best Practices.
+
+Day 20: 20-02-2025  
+Completed Questions in Java on Java Streams  
+Topic:  
+- Java I/O Streams
+- Types of Streams
+1. File Streams
+2. Object Streams
+3. ByteArray Streams
+4. Buffered Streams
+5. Reader and Writer
