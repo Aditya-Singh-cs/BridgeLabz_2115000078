@@ -140,3 +140,21 @@ Topic:
 3. ByteArray Streams
 4. Buffered Streams
 5. Reader and Writer
+
+Day 21: 21-02-2025  
+Completed Questions in Java on Java Exceptions  
+Topic:  
+1. Exceptions 
+2. Types of Exceptions
+- Checked Exceptions,
+- Unchecked Exceptions
+- Custom Exceptions
+3. Handling Exceptions 
+- try-catch blocks
+- try-catch-finally blocks
+- try-with-resources statement
+- throws clause
+- throw statement
+4. Creating Custom Exceptions
+5. Extending Exception Class
+6. Defining Constructors
