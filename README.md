@@ -158,3 +158,26 @@ Topic:
 4. Creating Custom Exceptions
 5. Extending Exception Class
 6. Defining Constructors
+
+Day 22: 22-02-2025  
+Completed Questions in java on Regex and JUnit  
+Topic:  
+1. Regex 
+2. MetaCharacter
+3. Quantifier
+4. Common Patterns:
+- Email Validation
+- Password Strength
+- Phone Number Format 
+5. Java Regex API 
+- Pattern
+- Matcher
+6. Methods:
+- find()
+- matches()
+- replaceAll()
+7. Introduction to JUnit Framework
+8. JUnit Annotations
+9. Writing Test Cases
+10. Structure of a Test Class
+11. Assertions
