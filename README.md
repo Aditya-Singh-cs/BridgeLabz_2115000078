@@ -195,3 +195,12 @@ Topic:
 1. Understanding of Reflection
 2. Using Reflection in Java
 3. Annotations and Reflection
+
+Day 24: 25-02-2025  
+Completed QUestions in java to understand CSV Data Handling  
+Topic:  
+1. Introduction to CSV
+2. Reading CSV Files
+3. Writing CSV Files
+4. Parsing CSV Data
+5. Data Validation
